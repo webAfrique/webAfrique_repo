@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Payment Gateway</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+    <div id="container">
+        <form>
+         <img src="olotupay.png" alt="olotupay logo" height="" width="">
+         <p id="name" class="springgreen">Jonathan Kent</p>
+         <div id="card_no">
+             <span class="springgreen">Enter card no</span>
+             <input id="card_pin" type="number" placeholder="5000 3000 0300 0300">
+         </div>
+         <div id="row_3">
+                <input type="checkbox">
+                <span class="springgreen">pay with card</span>
+                <span>expiration</span>
+                <span>cvv</span>
+                </div>
+                <p></p>
+                <div id="row_4">
+                <input type="checkbox">
+                <span class="springgreen">pay with Bank</span>
+                <input id="expDate" type="text" size="3" maxlength="5" placeholder="11/20">
+                <input id="cvv" type="text" size="3" maxlength="3" placeholder="808">;
+                </div>
+                <div id="row_5">
+                    <span>Enter pin</span>
+                    <input id="pin" type="text" size="3" maxlength="4" placeholder="1234">
+                </div>
+                <span id="pay_button">PAY</span>
+        </form>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
